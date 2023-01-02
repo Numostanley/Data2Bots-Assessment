@@ -1,6 +1,7 @@
 import json
 from dataclasses import dataclass, field
 
+from schema import get_schema
 
 @dataclass
 class SchemaSniffer:
@@ -15,35 +16,24 @@ class SchemaSniffer:
         """read the JSON file"""
 
         with open(self.__input_file, 'r') as f:
-            data = json.load(f)
+            data = json.loads(f.read())
         return data
             
     def sniff_schema(self, data: dict) -> None:
         """sniffs the schema of the JSON file"""
         
-        for key, value in data['message'].items():
-            schema = {"type": "", "tag": "", "description": "", "required": False}
-            
-            if isinstance(value, str):
-                schema["type"] = "string"
-            elif isinstance(value, int):
-                schema["type"] = "integer"
-            elif isinstance(value, list):
-                try:
-                    if isinstance(value[0], str):
-                        schema["type"] = "enum"
-                    elif isinstance(value[0], dict):
-                        schema["type"] = "array"
-                except IndexError:
-                    schema["type"] = "array"
-                    schema["description"] = "Empty list"
-            elif isinstance(value, dict):
-                schema["type"] = "json_object"
-            
-            self.__schema[key] = schema
+        # get only the attributes within the "message" key
+        data_items = data['message']
+        self.__schema = get_schema(data_items)
+    
+    def add_padding(self) -> None:
+        # Add padding to schema
+        for key, value in self.__schema.items():
+            value['tag'] = key
+            value['description'] = key
 
     def write_output(self) -> None:
         # dump the output in the schema.json
-        output = json.dumps(self.__schema, indent=4)
+        output = json.dumps(self.__schema, indent=3)
         with open(self.__output_file, 'w') as f:
             f.write(output)

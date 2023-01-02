@@ -1,20 +1,208 @@
 {
-    "battle": {
-        "type": "json_object",
-        "tag": "",
-        "description": "",
-        "required": false
-    },
-    "joiner": {
-        "type": "json_object",
-        "tag": "",
-        "description": "",
-        "required": false
-    },
-    "participantIds": {
-        "type": "enum",
-        "tag": "",
-        "description": "",
-        "required": false
-    }
+   "battle": {
+      "required": false,
+      "type": "object",
+      "properties": {
+         "id": {
+            "required": false,
+            "type": "string"
+         },
+         "name": {
+            "required": false,
+            "type": "string"
+         },
+         "orientation": {
+            "required": false,
+            "type": "string"
+         },
+         "settings": {
+            "required": false,
+            "type": "object",
+            "properties": {
+               "minParticipants": {
+                  "required": false,
+                  "type": "integer"
+               },
+               "maxParticipants": {
+                  "required": false,
+                  "type": "integer"
+               },
+               "battleType": {
+                  "required": false,
+                  "type": "string"
+               },
+               "wagerType": {
+                  "required": false,
+                  "type": "string"
+               },
+               "countdown": {
+                  "required": false,
+                  "type": "integer"
+               },
+               "duration": {
+                  "required": false,
+                  "type": "integer"
+               },
+               "archetype": {
+                  "required": false,
+                  "type": "object",
+                  "properties": {
+                     "name": {
+                        "required": false,
+                        "type": "string"
+                     },
+                     "iconId": {
+                        "required": false,
+                        "type": "string"
+                     }
+                  }
+               }
+            }
+         },
+         "status": {
+            "required": false,
+            "type": "string"
+         },
+         "creationTime": {
+            "required": false,
+            "type": "integer"
+         },
+         "startTime": {
+            "required": false,
+            "type": "integer"
+         },
+         "endTime": {
+            "required": false,
+            "type": "integer"
+         },
+         "creator": {
+            "required": false,
+            "type": "object",
+            "properties": {
+               "id": {
+                  "required": false,
+                  "type": "string"
+               },
+               "nickname": {
+                  "required": false,
+                  "type": "string"
+               },
+               "title": {
+                  "required": false,
+                  "type": "string"
+               },
+               "accountType": {
+                  "required": false,
+                  "type": "string"
+               },
+               "countryCode": {
+                  "required": false,
+                  "type": "string"
+               },
+               "orientation": {
+                  "required": false,
+                  "type": "string"
+               }
+            }
+         },
+         "participants": {
+            "required": false,
+            "type": "array",
+            "items": {
+               "type": "object",
+               "properties": {
+                  "user": {
+                     "required": false,
+                     "type": "object",
+                     "properties": {
+                        "id": {
+                           "required": false,
+                           "type": "string"
+                        },
+                        "nickname": {
+                           "required": false,
+                           "type": "string"
+                        },
+                        "title": {
+                           "required": false,
+                           "type": "string"
+                        },
+                        "accountType": {
+                           "required": false,
+                           "type": "string"
+                        },
+                        "countryCode": {
+                           "required": false,
+                           "type": "string"
+                        },
+                        "orientation": {
+                           "required": false,
+                           "type": "string"
+                        }
+                     }
+                  },
+                  "creator": {
+                     "required": false,
+                     "type": "bool"
+                  },
+                  "ranking": {
+                     "required": false,
+                     "type": "integer"
+                  },
+                  "numberOfTrades": {
+                     "required": false,
+                     "type": "integer"
+                  },
+                  "performance": {
+                     "required": false,
+                     "type": "string"
+                  }
+               }
+            }
+         }
+      },
+      "tag": "battle",
+      "description": "battle"
+   },
+   "joiner": {
+      "required": false,
+      "type": "object",
+      "properties": {
+         "id": {
+            "required": false,
+            "type": "string"
+         },
+         "nickname": {
+            "required": false,
+            "type": "string"
+         },
+         "title": {
+            "required": false,
+            "type": "string"
+         },
+         "accountType": {
+            "required": false,
+            "type": "string"
+         },
+         "countryCode": {
+            "required": false,
+            "type": "string"
+         },
+         "orientation": {
+            "required": false,
+            "type": "string"
+         }
+      },
+      "tag": "joiner",
+      "description": "joiner"
+   },
+   "participantIds": {
+      "required": false,
+      "type": "enum",
+      "items": {
+         "type": "string"
+      },
+      "tag": "participantIds",
+      "description": "participantIds"
+   }
 }

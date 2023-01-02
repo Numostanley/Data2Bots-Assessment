@@ -1,6 +1,6 @@
 The objective of this project is to :
 
-Write a genertic program that:
+Write a generic program that:
 - Reads the JSON files present in this location (./data/)
 - Sniffs the schema of the JSON files, and
 - Dumps the output in (./schema/)
