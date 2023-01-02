@@ -1,0 +1,20 @@
+{
+    "battle": {
+        "type": "json_object",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    "joiner": {
+        "type": "json_object",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    "participantIds": {
+        "type": "enum",
+        "tag": "",
+        "description": "",
+        "required": false
+    }
+}
