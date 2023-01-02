@@ -2,7 +2,7 @@ def get_schema(data: dict) -> dict:
     # Initialize empty dictionary for schema
     schema = {}
 
-    # Iterate through keys and values in message
+    # Iterate through keys and values in data
     for key, value in data.items():
         # Initialize empty dictionary for current key in schema
         attributes = {}
