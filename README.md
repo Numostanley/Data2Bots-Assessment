@@ -6,11 +6,11 @@ Write a genertic program that:
 - Dumps the output in (./schema/)
 
 The project can be executed by running the following command from the root directory;
-
+```
 python -m main
-
+```
 Also, the unittests of this project can be executed by running the following command from the root directory;
-
+```
 python -m unittest tests
-
-Note: The python version needed to successfully execute this code is python3 and above.
+```
+# Note: The python version needed to successfully execute this code is python3 and above.
