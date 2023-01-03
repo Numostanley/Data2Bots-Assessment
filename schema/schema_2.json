@@ -56,9 +56,9 @@
       "required": false
    },
    "publicFeed": {
-      "type": "bool",
+      "type": "boolean",
       "tag": "Publicfeed",
-      "description": "The Publicfeed attribute. Represented by a(n) bool data type.",
+      "description": "The Publicfeed attribute. Represented by a(n) boolean data type.",
       "required": false
    },
    "internationalCountries": {
@@ -71,9 +71,9 @@
       "required": false
    },
    "topTraderFeed": {
-      "type": "bool",
+      "type": "boolean",
       "tag": "Toptraderfeed",
-      "description": "The Toptraderfeed attribute. Represented by a(n) bool data type.",
+      "description": "The Toptraderfeed attribute. Represented by a(n) boolean data type.",
       "required": false
    }
 }

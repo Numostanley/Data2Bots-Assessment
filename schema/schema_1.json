@@ -202,9 +202,9 @@
                      "required": false
                   },
                   "creator": {
-                     "type": "bool",
+                     "type": "boolean",
                      "tag": "Creator",
-                     "description": "The Creator attribute. Represented by a(n) bool data type.",
+                     "description": "The Creator attribute. Represented by a(n) boolean data type.",
                      "required": false
                   },
                   "ranking": {

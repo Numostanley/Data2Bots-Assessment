@@ -8,8 +8,8 @@ def get_schema(data: dict) -> dict:
         attributes = {}
         
         # If value is a bool, set type to bool
-        if type(value) == bool:
-            attributes['type'] = 'bool'
+        if isinstance(value, bool):
+            attributes['type'] = 'boolean'
         # If value is a string, set type to string
         elif isinstance(value, str):
             attributes['type'] = 'string'
