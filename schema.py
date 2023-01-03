@@ -6,8 +6,6 @@ def get_schema(data: dict) -> dict:
     for key, value in data.items():
         # Initialize empty dictionary for current key in schema
         attributes = {}
-        # Set required key to false
-        attributes['required'] = False
         
         # If value is a bool, set type to bool
         if type(value) == bool:
@@ -35,8 +33,15 @@ def get_schema(data: dict) -> dict:
                     attributes['items'] = {'type': 'object', 'properties': get_schema(value[0])}
             except IndexError:
                 attributes['type'] = "list"
-                   
-        # Set current key in schema to attributes
+                
+        # Add padding to attributes.
+        attributes['tag'] = key.capitalize()
+        attributes['description'] = f"The {key.capitalize()} attribute. Represented by a(n) {attributes['type']} data type."          
+        
+        # Set required key to false
+        attributes['required'] = False
+        
+        # Set current attribute to its respective key.
         schema[key] = attributes
 
     # Return schema

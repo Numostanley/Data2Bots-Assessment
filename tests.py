@@ -10,7 +10,6 @@ class TestSchemaSniffer(TestCase):
         self.sniffer = SchemaSniffer('data/data_2.json', 'schema/schema_2.json')
         self.data = self.sniffer.read_input_file()
         self.sniffer.sniff_schema(data=self.data)
-        self.sniffer.add_padding()
         self.sniffer.write_output()
         with open('schema/schema_2.json', 'r') as f:
             self.output = json.load(f)

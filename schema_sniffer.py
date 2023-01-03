@@ -1,5 +1,6 @@
 import json
 from dataclasses import dataclass, field
+from typing import Callable
 
 from schema import get_schema
 
@@ -11,6 +12,7 @@ class SchemaSniffer:
     __input_file: str
     __output_file: str
     __schema: dict[str, dict] = field(default_factory=dict)
+    sniffer: Callable[[dict], dict] = get_schema
 
     def read_input_file(self) -> dict:
         """read the JSON file"""
@@ -24,13 +26,7 @@ class SchemaSniffer:
         
         # get only the attributes within the "message" key
         data_items = data['message']
-        self.__schema = get_schema(data_items)
-    
-    def add_padding(self) -> None:
-        # Add padding to schema
-        for key, value in self.__schema.items():
-            value['tag'] = key
-            value['description'] = key
+        self.__schema = self.sniffer(data_items)
 
     def write_output(self) -> None:
         # dump the output in the schema.json
