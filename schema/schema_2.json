@@ -46,7 +46,7 @@
    "time": {
       "type": "integer",
       "tag": "Time",
-      "description": "890",
+      "description": 890,
       "required": false
    },
    "acl": {
@@ -58,7 +58,7 @@
    "publicFeed": {
       "type": "boolean",
       "tag": "Publicfeed",
-      "description": "False",
+      "description": false,
       "required": false
    },
    "internationalCountries": {
@@ -73,7 +73,7 @@
    "topTraderFeed": {
       "type": "boolean",
       "tag": "Toptraderfeed",
-      "description": "True",
+      "description": true,
       "required": false
    }
 }

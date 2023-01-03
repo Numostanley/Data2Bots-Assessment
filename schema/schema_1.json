@@ -26,13 +26,13 @@
                "minParticipants": {
                   "type": "integer",
                   "tag": "Minparticipants",
-                  "description": "942",
+                  "description": 942,
                   "required": false
                },
                "maxParticipants": {
                   "type": "integer",
                   "tag": "Maxparticipants",
-                  "description": "641",
+                  "description": 641,
                   "required": false
                },
                "battleType": {
@@ -50,13 +50,13 @@
                "countdown": {
                   "type": "integer",
                   "tag": "Countdown",
-                  "description": "69",
+                  "description": 69,
                   "required": false
                },
                "duration": {
                   "type": "integer",
                   "tag": "Duration",
-                  "description": "200",
+                  "description": 200,
                   "required": false
                },
                "archetype": {
@@ -93,19 +93,19 @@
          "creationTime": {
             "type": "integer",
             "tag": "Creationtime",
-            "description": "240",
+            "description": 240,
             "required": false
          },
          "startTime": {
             "type": "integer",
             "tag": "Starttime",
-            "description": "626",
+            "description": 626,
             "required": false
          },
          "endTime": {
             "type": "integer",
             "tag": "Endtime",
-            "description": "353",
+            "description": 353,
             "required": false
          },
          "creator": {
@@ -204,19 +204,19 @@
                   "creator": {
                      "type": "boolean",
                      "tag": "Creator",
-                     "description": "False",
+                     "description": false,
                      "required": false
                   },
                   "ranking": {
                      "type": "integer",
                      "tag": "Ranking",
-                     "description": "498",
+                     "description": 498,
                      "required": false
                   },
                   "numberOfTrades": {
                      "type": "integer",
                      "tag": "Numberoftrades",
-                     "description": "862",
+                     "description": 862,
                      "required": false
                   },
                   "performance": {
