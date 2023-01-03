@@ -5,19 +5,19 @@
          "id": {
             "type": "string",
             "tag": "Id",
-            "description": "The Id attribute. Represented by a(n) string data type.",
+            "description": "ABCDEFGHIJKLMNOPQR",
             "required": false
          },
          "name": {
             "type": "string",
             "tag": "Name",
-            "description": "The Name attribute. Represented by a(n) string data type.",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWX",
             "required": false
          },
          "orientation": {
             "type": "string",
             "tag": "Orientation",
-            "description": "The Orientation attribute. Represented by a(n) string data type.",
+            "description": "ABCDEFGHIJKLMNO",
             "required": false
          },
          "settings": {
@@ -26,37 +26,37 @@
                "minParticipants": {
                   "type": "integer",
                   "tag": "Minparticipants",
-                  "description": "The Minparticipants attribute. Represented by a(n) integer data type.",
+                  "description": "942",
                   "required": false
                },
                "maxParticipants": {
                   "type": "integer",
                   "tag": "Maxparticipants",
-                  "description": "The Maxparticipants attribute. Represented by a(n) integer data type.",
+                  "description": "641",
                   "required": false
                },
                "battleType": {
                   "type": "string",
                   "tag": "Battletype",
-                  "description": "The Battletype attribute. Represented by a(n) string data type.",
+                  "description": "ABCDEFGHIJKLMN",
                   "required": false
                },
                "wagerType": {
                   "type": "string",
                   "tag": "Wagertype",
-                  "description": "The Wagertype attribute. Represented by a(n) string data type.",
+                  "description": "ABCDEFGHIJKLMNOPQRSTUVW",
                   "required": false
                },
                "countdown": {
                   "type": "integer",
                   "tag": "Countdown",
-                  "description": "The Countdown attribute. Represented by a(n) integer data type.",
+                  "description": "69",
                   "required": false
                },
                "duration": {
                   "type": "integer",
                   "tag": "Duration",
-                  "description": "The Duration attribute. Represented by a(n) integer data type.",
+                  "description": "200",
                   "required": false
                },
                "archetype": {
@@ -65,13 +65,13 @@
                      "name": {
                         "type": "string",
                         "tag": "Name",
-                        "description": "The Name attribute. Represented by a(n) string data type.",
+                        "description": "ABCDEFGHIJKLMNOPQRS",
                         "required": false
                      },
                      "iconId": {
                         "type": "string",
                         "tag": "Iconid",
-                        "description": "The Iconid attribute. Represented by a(n) string data type.",
+                        "description": "ABCDEFGHIJKLMNOPQRST",
                         "required": false
                      }
                   },
@@ -87,25 +87,25 @@
          "status": {
             "type": "string",
             "tag": "Status",
-            "description": "The Status attribute. Represented by a(n) string data type.",
+            "description": "ABCDEFGHIJKL",
             "required": false
          },
          "creationTime": {
             "type": "integer",
             "tag": "Creationtime",
-            "description": "The Creationtime attribute. Represented by a(n) integer data type.",
+            "description": "240",
             "required": false
          },
          "startTime": {
             "type": "integer",
             "tag": "Starttime",
-            "description": "The Starttime attribute. Represented by a(n) integer data type.",
+            "description": "626",
             "required": false
          },
          "endTime": {
             "type": "integer",
             "tag": "Endtime",
-            "description": "The Endtime attribute. Represented by a(n) integer data type.",
+            "description": "353",
             "required": false
          },
          "creator": {
@@ -114,37 +114,37 @@
                "id": {
                   "type": "string",
                   "tag": "Id",
-                  "description": "The Id attribute. Represented by a(n) string data type.",
+                  "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
                   "required": false
                },
                "nickname": {
                   "type": "string",
                   "tag": "Nickname",
-                  "description": "The Nickname attribute. Represented by a(n) string data type.",
+                  "description": "ABCDEFGHIJKLMNOPQ",
                   "required": false
                },
                "title": {
                   "type": "string",
                   "tag": "Title",
-                  "description": "The Title attribute. Represented by a(n) string data type.",
+                  "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
                   "required": false
                },
                "accountType": {
                   "type": "string",
                   "tag": "Accounttype",
-                  "description": "The Accounttype attribute. Represented by a(n) string data type.",
+                  "description": "ABCDE",
                   "required": false
                },
                "countryCode": {
                   "type": "string",
                   "tag": "Countrycode",
-                  "description": "The Countrycode attribute. Represented by a(n) string data type.",
+                  "description": "ABCD",
                   "required": false
                },
                "orientation": {
                   "type": "string",
                   "tag": "Orientation",
-                  "description": "The Orientation attribute. Represented by a(n) string data type.",
+                  "description": "ABCDEFGHIJKLMNO",
                   "required": false
                }
             },
@@ -163,37 +163,37 @@
                         "id": {
                            "type": "string",
                            "tag": "Id",
-                           "description": "The Id attribute. Represented by a(n) string data type.",
+                           "description": "ABCDEFGHIJKLMN",
                            "required": false
                         },
                         "nickname": {
                            "type": "string",
                            "tag": "Nickname",
-                           "description": "The Nickname attribute. Represented by a(n) string data type.",
+                           "description": "ABCDEFGHIJKLMN",
                            "required": false
                         },
                         "title": {
                            "type": "string",
                            "tag": "Title",
-                           "description": "The Title attribute. Represented by a(n) string data type.",
+                           "description": "ABCDEFGHIJK",
                            "required": false
                         },
                         "accountType": {
                            "type": "string",
                            "tag": "Accounttype",
-                           "description": "The Accounttype attribute. Represented by a(n) string data type.",
+                           "description": "ABCDEFGHIJKLMNOPQRSTUVWX",
                            "required": false
                         },
                         "countryCode": {
                            "type": "string",
                            "tag": "Countrycode",
-                           "description": "The Countrycode attribute. Represented by a(n) string data type.",
+                           "description": "ABCDEFGH",
                            "required": false
                         },
                         "orientation": {
                            "type": "string",
                            "tag": "Orientation",
-                           "description": "The Orientation attribute. Represented by a(n) string data type.",
+                           "description": "ABCDEFGHIJKLMNOPQRSTUVWXY",
                            "required": false
                         }
                      },
@@ -204,25 +204,25 @@
                   "creator": {
                      "type": "boolean",
                      "tag": "Creator",
-                     "description": "The Creator attribute. Represented by a(n) boolean data type.",
+                     "description": "False",
                      "required": false
                   },
                   "ranking": {
                      "type": "integer",
                      "tag": "Ranking",
-                     "description": "The Ranking attribute. Represented by a(n) integer data type.",
+                     "description": "498",
                      "required": false
                   },
                   "numberOfTrades": {
                      "type": "integer",
                      "tag": "Numberoftrades",
-                     "description": "The Numberoftrades attribute. Represented by a(n) integer data type.",
+                     "description": "862",
                      "required": false
                   },
                   "performance": {
                      "type": "string",
                      "tag": "Performance",
-                     "description": "The Performance attribute. Represented by a(n) string data type.",
+                     "description": "ABCDEFGHIJKLMNOPQRSTUVW",
                      "required": false
                   }
                }
@@ -242,37 +242,37 @@
          "id": {
             "type": "string",
             "tag": "Id",
-            "description": "The Id attribute. Represented by a(n) string data type.",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
             "required": false
          },
          "nickname": {
             "type": "string",
             "tag": "Nickname",
-            "description": "The Nickname attribute. Represented by a(n) string data type.",
+            "description": "ABCDEFGHIJKLMNO",
             "required": false
          },
          "title": {
             "type": "string",
             "tag": "Title",
-            "description": "The Title attribute. Represented by a(n) string data type.",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
             "required": false
          },
          "accountType": {
             "type": "string",
             "tag": "Accounttype",
-            "description": "The Accounttype attribute. Represented by a(n) string data type.",
+            "description": "ABCDEFGHIJKLMNOPQRS",
             "required": false
          },
          "countryCode": {
             "type": "string",
             "tag": "Countrycode",
-            "description": "The Countrycode attribute. Represented by a(n) string data type.",
+            "description": "ABCDEFGHIJKLMNOPQR",
             "required": false
          },
          "orientation": {
             "type": "string",
             "tag": "Orientation",
-            "description": "The Orientation attribute. Represented by a(n) string data type.",
+            "description": "ABCDEFGHIJKLMNOPQR",
             "required": false
          }
       },

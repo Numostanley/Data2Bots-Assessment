@@ -31,12 +31,16 @@ def get_schema(data: dict) -> dict:
                 elif isinstance(value[0], dict):
                     attributes['type'] = 'array'
                     attributes['items'] = {'type': 'object', 'properties': get_schema(value[0])}
+            # if list is empy
             except IndexError:
                 attributes['type'] = "list"
                 
         # Add padding to attributes.
         attributes['tag'] = key.capitalize()
-        attributes['description'] = f"The {key.capitalize()} attribute. Represented by a(n) {attributes['type']} data type."          
+        if (isinstance(value, bool)) or (isinstance(value, str)) or (isinstance(value, int)):
+            attributes['description'] = f"{value}"
+        else:   
+            attributes['description'] = f"The {key.capitalize()} attribute. Represented by a(n) {attributes['type']} data type."          
         
         # Set required key to false
         attributes['required'] = False
