@@ -13,4 +13,7 @@ Also, the unittests of this project can be executed by running the following com
 ```
 python -m unittest tests
 ```
+It is noteworthy to state that a FileNotFoundError will be raised if an invalid file path or file is inputed.
+This exception was not handled intentionally for testing purpose.
+
 # Note: The python version needed to successfully execute this code is python3 and above.
