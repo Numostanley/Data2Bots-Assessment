@@ -5,37 +5,37 @@
          "id": {
             "type": "string",
             "tag": "Id",
-            "description": "ABCDEFGHIJKLMNOP",
+            "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOP",
             "required": false
          },
          "nickname": {
             "type": "string",
             "tag": "Nickname",
-            "description": "ABCD",
+            "description": "The Nickname attribute. Represented as ABCD",
             "required": false
          },
          "title": {
             "type": "string",
             "tag": "Title",
-            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
+            "description": "The Title attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
             "required": false
          },
          "accountType": {
             "type": "string",
             "tag": "Accounttype",
-            "description": "ABCDEFGHIJKLMNOPQRSTUVWX",
+            "description": "The Accounttype attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
             "required": false
          },
          "countryCode": {
             "type": "string",
             "tag": "Countrycode",
-            "description": "ABCDEFGHIJKLMNOPQRSTUVWX",
+            "description": "The Countrycode attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
             "required": false
          },
          "orientation": {
             "type": "string",
             "tag": "Orientation",
-            "description": "ABCDEFGHIJKLMNOPQRSTU",
+            "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNOPQRSTU",
             "required": false
          }
       },
@@ -46,7 +46,7 @@
    "time": {
       "type": "integer",
       "tag": "Time",
-      "description": 890,
+      "description": "The Time attribute. Represented as 890",
       "required": false
    },
    "acl": {
@@ -58,7 +58,7 @@
    "publicFeed": {
       "type": "boolean",
       "tag": "Publicfeed",
-      "description": false,
+      "description": "The Publicfeed attribute. Represented as False",
       "required": false
    },
    "internationalCountries": {
@@ -73,7 +73,7 @@
    "topTraderFeed": {
       "type": "boolean",
       "tag": "Toptraderfeed",
-      "description": true,
+      "description": "The Toptraderfeed attribute. Represented as True",
       "required": false
    }
 }

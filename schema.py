@@ -38,7 +38,7 @@ def get_schema(data: dict) -> dict:
         # Add padding to attributes.
         attributes['tag'] = key.capitalize()
         if (isinstance(value, bool)) or (isinstance(value, str)) or (isinstance(value, int)):
-            attributes['description'] = value
+            attributes['description'] = f"The {key.capitalize()} attribute. Represented as {value}"
         else:   
             attributes['description'] = f"The {key.capitalize()} attribute. Represented by a(n) {attributes['type']} data type."          
         

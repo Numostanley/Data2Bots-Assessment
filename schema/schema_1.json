@@ -5,19 +5,19 @@
          "id": {
             "type": "string",
             "tag": "Id",
-            "description": "ABCDEFGHIJKLMNOPQR",
+            "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOPQR",
             "required": false
          },
          "name": {
             "type": "string",
             "tag": "Name",
-            "description": "ABCDEFGHIJKLMNOPQRSTUVWX",
+            "description": "The Name attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
             "required": false
          },
          "orientation": {
             "type": "string",
             "tag": "Orientation",
-            "description": "ABCDEFGHIJKLMNO",
+            "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNO",
             "required": false
          },
          "settings": {
@@ -26,37 +26,37 @@
                "minParticipants": {
                   "type": "integer",
                   "tag": "Minparticipants",
-                  "description": 942,
+                  "description": "The Minparticipants attribute. Represented as 942",
                   "required": false
                },
                "maxParticipants": {
                   "type": "integer",
                   "tag": "Maxparticipants",
-                  "description": 641,
+                  "description": "The Maxparticipants attribute. Represented as 641",
                   "required": false
                },
                "battleType": {
                   "type": "string",
                   "tag": "Battletype",
-                  "description": "ABCDEFGHIJKLMN",
+                  "description": "The Battletype attribute. Represented as ABCDEFGHIJKLMN",
                   "required": false
                },
                "wagerType": {
                   "type": "string",
                   "tag": "Wagertype",
-                  "description": "ABCDEFGHIJKLMNOPQRSTUVW",
+                  "description": "The Wagertype attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVW",
                   "required": false
                },
                "countdown": {
                   "type": "integer",
                   "tag": "Countdown",
-                  "description": 69,
+                  "description": "The Countdown attribute. Represented as 69",
                   "required": false
                },
                "duration": {
                   "type": "integer",
                   "tag": "Duration",
-                  "description": 200,
+                  "description": "The Duration attribute. Represented as 200",
                   "required": false
                },
                "archetype": {
@@ -65,13 +65,13 @@
                      "name": {
                         "type": "string",
                         "tag": "Name",
-                        "description": "ABCDEFGHIJKLMNOPQRS",
+                        "description": "The Name attribute. Represented as ABCDEFGHIJKLMNOPQRS",
                         "required": false
                      },
                      "iconId": {
                         "type": "string",
                         "tag": "Iconid",
-                        "description": "ABCDEFGHIJKLMNOPQRST",
+                        "description": "The Iconid attribute. Represented as ABCDEFGHIJKLMNOPQRST",
                         "required": false
                      }
                   },
@@ -87,25 +87,25 @@
          "status": {
             "type": "string",
             "tag": "Status",
-            "description": "ABCDEFGHIJKL",
+            "description": "The Status attribute. Represented as ABCDEFGHIJKL",
             "required": false
          },
          "creationTime": {
             "type": "integer",
             "tag": "Creationtime",
-            "description": 240,
+            "description": "The Creationtime attribute. Represented as 240",
             "required": false
          },
          "startTime": {
             "type": "integer",
             "tag": "Starttime",
-            "description": 626,
+            "description": "The Starttime attribute. Represented as 626",
             "required": false
          },
          "endTime": {
             "type": "integer",
             "tag": "Endtime",
-            "description": 353,
+            "description": "The Endtime attribute. Represented as 353",
             "required": false
          },
          "creator": {
@@ -114,37 +114,37 @@
                "id": {
                   "type": "string",
                   "tag": "Id",
-                  "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+                  "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZA",
                   "required": false
                },
                "nickname": {
                   "type": "string",
                   "tag": "Nickname",
-                  "description": "ABCDEFGHIJKLMNOPQ",
+                  "description": "The Nickname attribute. Represented as ABCDEFGHIJKLMNOPQ",
                   "required": false
                },
                "title": {
                   "type": "string",
                   "tag": "Title",
-                  "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                  "description": "The Title attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZ",
                   "required": false
                },
                "accountType": {
                   "type": "string",
                   "tag": "Accounttype",
-                  "description": "ABCDE",
+                  "description": "The Accounttype attribute. Represented as ABCDE",
                   "required": false
                },
                "countryCode": {
                   "type": "string",
                   "tag": "Countrycode",
-                  "description": "ABCD",
+                  "description": "The Countrycode attribute. Represented as ABCD",
                   "required": false
                },
                "orientation": {
                   "type": "string",
                   "tag": "Orientation",
-                  "description": "ABCDEFGHIJKLMNO",
+                  "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNO",
                   "required": false
                }
             },
@@ -163,37 +163,37 @@
                         "id": {
                            "type": "string",
                            "tag": "Id",
-                           "description": "ABCDEFGHIJKLMN",
+                           "description": "The Id attribute. Represented as ABCDEFGHIJKLMN",
                            "required": false
                         },
                         "nickname": {
                            "type": "string",
                            "tag": "Nickname",
-                           "description": "ABCDEFGHIJKLMN",
+                           "description": "The Nickname attribute. Represented as ABCDEFGHIJKLMN",
                            "required": false
                         },
                         "title": {
                            "type": "string",
                            "tag": "Title",
-                           "description": "ABCDEFGHIJK",
+                           "description": "The Title attribute. Represented as ABCDEFGHIJK",
                            "required": false
                         },
                         "accountType": {
                            "type": "string",
                            "tag": "Accounttype",
-                           "description": "ABCDEFGHIJKLMNOPQRSTUVWX",
+                           "description": "The Accounttype attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
                            "required": false
                         },
                         "countryCode": {
                            "type": "string",
                            "tag": "Countrycode",
-                           "description": "ABCDEFGH",
+                           "description": "The Countrycode attribute. Represented as ABCDEFGH",
                            "required": false
                         },
                         "orientation": {
                            "type": "string",
                            "tag": "Orientation",
-                           "description": "ABCDEFGHIJKLMNOPQRSTUVWXY",
+                           "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXY",
                            "required": false
                         }
                      },
@@ -204,25 +204,25 @@
                   "creator": {
                      "type": "boolean",
                      "tag": "Creator",
-                     "description": false,
+                     "description": "The Creator attribute. Represented as False",
                      "required": false
                   },
                   "ranking": {
                      "type": "integer",
                      "tag": "Ranking",
-                     "description": 498,
+                     "description": "The Ranking attribute. Represented as 498",
                      "required": false
                   },
                   "numberOfTrades": {
                      "type": "integer",
                      "tag": "Numberoftrades",
-                     "description": 862,
+                     "description": "The Numberoftrades attribute. Represented as 862",
                      "required": false
                   },
                   "performance": {
                      "type": "string",
                      "tag": "Performance",
-                     "description": "ABCDEFGHIJKLMNOPQRSTUVW",
+                     "description": "The Performance attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVW",
                      "required": false
                   }
                }
@@ -242,37 +242,37 @@
          "id": {
             "type": "string",
             "tag": "Id",
-            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
+            "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
             "required": false
          },
          "nickname": {
             "type": "string",
             "tag": "Nickname",
-            "description": "ABCDEFGHIJKLMNO",
+            "description": "The Nickname attribute. Represented as ABCDEFGHIJKLMNO",
             "required": false
          },
          "title": {
             "type": "string",
             "tag": "Title",
-            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
+            "description": "The Title attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
             "required": false
          },
          "accountType": {
             "type": "string",
             "tag": "Accounttype",
-            "description": "ABCDEFGHIJKLMNOPQRS",
+            "description": "The Accounttype attribute. Represented as ABCDEFGHIJKLMNOPQRS",
             "required": false
          },
          "countryCode": {
             "type": "string",
             "tag": "Countrycode",
-            "description": "ABCDEFGHIJKLMNOPQR",
+            "description": "The Countrycode attribute. Represented as ABCDEFGHIJKLMNOPQR",
             "required": false
          },
          "orientation": {
             "type": "string",
             "tag": "Orientation",
-            "description": "ABCDEFGHIJKLMNOPQR",
+            "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNOPQR",
             "required": false
          }
       },
