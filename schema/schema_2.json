@@ -1,79 +1,79 @@
 {
-   "user": {
-      "type": "object",
-      "properties": {
-         "id": {
-            "type": "string",
-            "tag": "Id",
-            "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOP",
-            "required": false
-         },
-         "nickname": {
-            "type": "string",
-            "tag": "Nickname",
-            "description": "The Nickname attribute. Represented as ABCD",
-            "required": false
-         },
-         "title": {
-            "type": "string",
-            "tag": "Title",
-            "description": "The Title attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
-            "required": false
-         },
-         "accountType": {
-            "type": "string",
-            "tag": "Accounttype",
-            "description": "The Accounttype attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
-            "required": false
-         },
-         "countryCode": {
-            "type": "string",
-            "tag": "Countrycode",
-            "description": "The Countrycode attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
-            "required": false
-         },
-         "orientation": {
-            "type": "string",
-            "tag": "Orientation",
-            "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNOPQRSTU",
-            "required": false
-         }
-      },
-      "tag": "User",
-      "description": "The User attribute. Represented by a(n) object data type.",
-      "required": false
-   },
-   "time": {
-      "type": "integer",
-      "tag": "Time",
-      "description": "The Time attribute. Represented as 890",
-      "required": false
-   },
-   "acl": {
-      "type": "list",
-      "tag": "Acl",
-      "description": "The Acl attribute. Represented by a(n) list data type.",
-      "required": false
-   },
-   "publicFeed": {
-      "type": "boolean",
-      "tag": "Publicfeed",
-      "description": "The Publicfeed attribute. Represented as False",
-      "required": false
-   },
-   "internationalCountries": {
-      "type": "enum",
-      "items": {
-         "type": "string"
-      },
-      "tag": "Internationalcountries",
-      "description": "The Internationalcountries attribute. Represented by a(n) enum data type.",
-      "required": false
-   },
-   "topTraderFeed": {
-      "type": "boolean",
-      "tag": "Toptraderfeed",
-      "description": "The Toptraderfeed attribute. Represented as True",
-      "required": false
-   }
+    "user": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "string",
+                "tag": "Id",
+                "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOP",
+                "required": false
+            },
+            "nickname": {
+                "type": "string",
+                "tag": "Nickname",
+                "description": "The Nickname attribute. Represented as ABCD",
+                "required": false
+            },
+            "title": {
+                "type": "string",
+                "tag": "Title",
+                "description": "The Title attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
+                "required": false
+            },
+            "accountType": {
+                "type": "string",
+                "tag": "Accounttype",
+                "description": "The Accounttype attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
+                "required": false
+            },
+            "countryCode": {
+                "type": "string",
+                "tag": "Countrycode",
+                "description": "The Countrycode attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
+                "required": false
+            },
+            "orientation": {
+                "type": "string",
+                "tag": "Orientation",
+                "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNOPQRSTU",
+                "required": false
+            }
+        },
+        "tag": "User",
+        "description": "The User attribute. Represented by a(n) object data type.",
+        "required": false
+    },
+    "time": {
+        "type": "integer",
+        "tag": "Time",
+        "description": "The Time attribute. Represented as 890",
+        "required": false
+    },
+    "acl": {
+        "type": "list",
+        "tag": "Acl",
+        "description": "The Acl attribute. Represented by a(n) list data type.",
+        "required": false
+    },
+    "publicFeed": {
+        "type": "boolean",
+        "tag": "Publicfeed",
+        "description": "The Publicfeed attribute. Represented as False",
+        "required": false
+    },
+    "internationalCountries": {
+        "type": "enum",
+        "items": {
+            "type": "string"
+        },
+        "tag": "Internationalcountries",
+        "description": "The Internationalcountries attribute. Represented by a(n) enum data type.",
+        "required": false
+    },
+    "topTraderFeed": {
+        "type": "boolean",
+        "tag": "Toptraderfeed",
+        "description": "The Toptraderfeed attribute. Represented as True",
+        "required": false
+    }
 }

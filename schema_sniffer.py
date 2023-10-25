@@ -31,6 +31,6 @@ class SchemaSniffer:
 
     def write_output(self) -> None:
         # dump the output in the schema.json
-        output = json.dumps(self.__schema, indent=3)
+        output = json.dumps(self.__schema, indent=4)
         with open(self.__output_file, 'w') as f:
             f.write(output)

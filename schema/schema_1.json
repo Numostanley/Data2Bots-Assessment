@@ -1,292 +1,292 @@
 {
-   "battle": {
-      "type": "object",
-      "properties": {
-         "id": {
-            "type": "string",
-            "tag": "Id",
-            "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOPQR",
-            "required": false
-         },
-         "name": {
-            "type": "string",
-            "tag": "Name",
-            "description": "The Name attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
-            "required": false
-         },
-         "orientation": {
-            "type": "string",
-            "tag": "Orientation",
-            "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNO",
-            "required": false
-         },
-         "settings": {
-            "type": "object",
-            "properties": {
-               "minParticipants": {
-                  "type": "integer",
-                  "tag": "Minparticipants",
-                  "description": "The Minparticipants attribute. Represented as 942",
-                  "required": false
-               },
-               "maxParticipants": {
-                  "type": "integer",
-                  "tag": "Maxparticipants",
-                  "description": "The Maxparticipants attribute. Represented as 641",
-                  "required": false
-               },
-               "battleType": {
-                  "type": "string",
-                  "tag": "Battletype",
-                  "description": "The Battletype attribute. Represented as ABCDEFGHIJKLMN",
-                  "required": false
-               },
-               "wagerType": {
-                  "type": "string",
-                  "tag": "Wagertype",
-                  "description": "The Wagertype attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVW",
-                  "required": false
-               },
-               "countdown": {
-                  "type": "integer",
-                  "tag": "Countdown",
-                  "description": "The Countdown attribute. Represented as 69",
-                  "required": false
-               },
-               "duration": {
-                  "type": "integer",
-                  "tag": "Duration",
-                  "description": "The Duration attribute. Represented as 200",
-                  "required": false
-               },
-               "archetype": {
-                  "type": "object",
-                  "properties": {
-                     "name": {
-                        "type": "string",
-                        "tag": "Name",
-                        "description": "The Name attribute. Represented as ABCDEFGHIJKLMNOPQRS",
-                        "required": false
-                     },
-                     "iconId": {
-                        "type": "string",
-                        "tag": "Iconid",
-                        "description": "The Iconid attribute. Represented as ABCDEFGHIJKLMNOPQRST",
-                        "required": false
-                     }
-                  },
-                  "tag": "Archetype",
-                  "description": "The Archetype attribute. Represented by a(n) object data type.",
-                  "required": false
-               }
+    "battle": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "string",
+                "tag": "Id",
+                "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOPQR",
+                "required": false
             },
-            "tag": "Settings",
-            "description": "The Settings attribute. Represented by a(n) object data type.",
-            "required": false
-         },
-         "status": {
-            "type": "string",
-            "tag": "Status",
-            "description": "The Status attribute. Represented as ABCDEFGHIJKL",
-            "required": false
-         },
-         "creationTime": {
-            "type": "integer",
-            "tag": "Creationtime",
-            "description": "The Creationtime attribute. Represented as 240",
-            "required": false
-         },
-         "startTime": {
-            "type": "integer",
-            "tag": "Starttime",
-            "description": "The Starttime attribute. Represented as 626",
-            "required": false
-         },
-         "endTime": {
-            "type": "integer",
-            "tag": "Endtime",
-            "description": "The Endtime attribute. Represented as 353",
-            "required": false
-         },
-         "creator": {
-            "type": "object",
-            "properties": {
-               "id": {
-                  "type": "string",
-                  "tag": "Id",
-                  "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZA",
-                  "required": false
-               },
-               "nickname": {
-                  "type": "string",
-                  "tag": "Nickname",
-                  "description": "The Nickname attribute. Represented as ABCDEFGHIJKLMNOPQ",
-                  "required": false
-               },
-               "title": {
-                  "type": "string",
-                  "tag": "Title",
-                  "description": "The Title attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-                  "required": false
-               },
-               "accountType": {
-                  "type": "string",
-                  "tag": "Accounttype",
-                  "description": "The Accounttype attribute. Represented as ABCDE",
-                  "required": false
-               },
-               "countryCode": {
-                  "type": "string",
-                  "tag": "Countrycode",
-                  "description": "The Countrycode attribute. Represented as ABCD",
-                  "required": false
-               },
-               "orientation": {
-                  "type": "string",
-                  "tag": "Orientation",
-                  "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNO",
-                  "required": false
-               }
+            "name": {
+                "type": "string",
+                "tag": "Name",
+                "description": "The Name attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
+                "required": false
             },
-            "tag": "Creator",
-            "description": "The Creator attribute. Represented by a(n) object data type.",
-            "required": false
-         },
-         "participants": {
-            "type": "array",
-            "items": {
-               "type": "object",
-               "properties": {
-                  "user": {
-                     "type": "object",
-                     "properties": {
-                        "id": {
-                           "type": "string",
-                           "tag": "Id",
-                           "description": "The Id attribute. Represented as ABCDEFGHIJKLMN",
-                           "required": false
+            "orientation": {
+                "type": "string",
+                "tag": "Orientation",
+                "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNO",
+                "required": false
+            },
+            "settings": {
+                "type": "object",
+                "properties": {
+                    "minParticipants": {
+                        "type": "integer",
+                        "tag": "Minparticipants",
+                        "description": "The Minparticipants attribute. Represented as 942",
+                        "required": false
+                    },
+                    "maxParticipants": {
+                        "type": "integer",
+                        "tag": "Maxparticipants",
+                        "description": "The Maxparticipants attribute. Represented as 641",
+                        "required": false
+                    },
+                    "battleType": {
+                        "type": "string",
+                        "tag": "Battletype",
+                        "description": "The Battletype attribute. Represented as ABCDEFGHIJKLMN",
+                        "required": false
+                    },
+                    "wagerType": {
+                        "type": "string",
+                        "tag": "Wagertype",
+                        "description": "The Wagertype attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVW",
+                        "required": false
+                    },
+                    "countdown": {
+                        "type": "integer",
+                        "tag": "Countdown",
+                        "description": "The Countdown attribute. Represented as 69",
+                        "required": false
+                    },
+                    "duration": {
+                        "type": "integer",
+                        "tag": "Duration",
+                        "description": "The Duration attribute. Represented as 200",
+                        "required": false
+                    },
+                    "archetype": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string",
+                                "tag": "Name",
+                                "description": "The Name attribute. Represented as ABCDEFGHIJKLMNOPQRS",
+                                "required": false
+                            },
+                            "iconId": {
+                                "type": "string",
+                                "tag": "Iconid",
+                                "description": "The Iconid attribute. Represented as ABCDEFGHIJKLMNOPQRST",
+                                "required": false
+                            }
                         },
-                        "nickname": {
-                           "type": "string",
-                           "tag": "Nickname",
-                           "description": "The Nickname attribute. Represented as ABCDEFGHIJKLMN",
-                           "required": false
+                        "tag": "Archetype",
+                        "description": "The Archetype attribute. Represented by a(n) object data type.",
+                        "required": false
+                    }
+                },
+                "tag": "Settings",
+                "description": "The Settings attribute. Represented by a(n) object data type.",
+                "required": false
+            },
+            "status": {
+                "type": "string",
+                "tag": "Status",
+                "description": "The Status attribute. Represented as ABCDEFGHIJKL",
+                "required": false
+            },
+            "creationTime": {
+                "type": "integer",
+                "tag": "Creationtime",
+                "description": "The Creationtime attribute. Represented as 240",
+                "required": false
+            },
+            "startTime": {
+                "type": "integer",
+                "tag": "Starttime",
+                "description": "The Starttime attribute. Represented as 626",
+                "required": false
+            },
+            "endTime": {
+                "type": "integer",
+                "tag": "Endtime",
+                "description": "The Endtime attribute. Represented as 353",
+                "required": false
+            },
+            "creator": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "tag": "Id",
+                        "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+                        "required": false
+                    },
+                    "nickname": {
+                        "type": "string",
+                        "tag": "Nickname",
+                        "description": "The Nickname attribute. Represented as ABCDEFGHIJKLMNOPQ",
+                        "required": false
+                    },
+                    "title": {
+                        "type": "string",
+                        "tag": "Title",
+                        "description": "The Title attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                        "required": false
+                    },
+                    "accountType": {
+                        "type": "string",
+                        "tag": "Accounttype",
+                        "description": "The Accounttype attribute. Represented as ABCDE",
+                        "required": false
+                    },
+                    "countryCode": {
+                        "type": "string",
+                        "tag": "Countrycode",
+                        "description": "The Countrycode attribute. Represented as ABCD",
+                        "required": false
+                    },
+                    "orientation": {
+                        "type": "string",
+                        "tag": "Orientation",
+                        "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNO",
+                        "required": false
+                    }
+                },
+                "tag": "Creator",
+                "description": "The Creator attribute. Represented by a(n) object data type.",
+                "required": false
+            },
+            "participants": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "user": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "string",
+                                    "tag": "Id",
+                                    "description": "The Id attribute. Represented as ABCDEFGHIJKLMN",
+                                    "required": false
+                                },
+                                "nickname": {
+                                    "type": "string",
+                                    "tag": "Nickname",
+                                    "description": "The Nickname attribute. Represented as ABCDEFGHIJKLMN",
+                                    "required": false
+                                },
+                                "title": {
+                                    "type": "string",
+                                    "tag": "Title",
+                                    "description": "The Title attribute. Represented as ABCDEFGHIJK",
+                                    "required": false
+                                },
+                                "accountType": {
+                                    "type": "string",
+                                    "tag": "Accounttype",
+                                    "description": "The Accounttype attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
+                                    "required": false
+                                },
+                                "countryCode": {
+                                    "type": "string",
+                                    "tag": "Countrycode",
+                                    "description": "The Countrycode attribute. Represented as ABCDEFGH",
+                                    "required": false
+                                },
+                                "orientation": {
+                                    "type": "string",
+                                    "tag": "Orientation",
+                                    "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXY",
+                                    "required": false
+                                }
+                            },
+                            "tag": "User",
+                            "description": "The User attribute. Represented by a(n) object data type.",
+                            "required": false
                         },
-                        "title": {
-                           "type": "string",
-                           "tag": "Title",
-                           "description": "The Title attribute. Represented as ABCDEFGHIJK",
-                           "required": false
+                        "creator": {
+                            "type": "boolean",
+                            "tag": "Creator",
+                            "description": "The Creator attribute. Represented as False",
+                            "required": false
                         },
-                        "accountType": {
-                           "type": "string",
-                           "tag": "Accounttype",
-                           "description": "The Accounttype attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWX",
-                           "required": false
+                        "ranking": {
+                            "type": "integer",
+                            "tag": "Ranking",
+                            "description": "The Ranking attribute. Represented as 498",
+                            "required": false
                         },
-                        "countryCode": {
-                           "type": "string",
-                           "tag": "Countrycode",
-                           "description": "The Countrycode attribute. Represented as ABCDEFGH",
-                           "required": false
+                        "numberOfTrades": {
+                            "type": "integer",
+                            "tag": "Numberoftrades",
+                            "description": "The Numberoftrades attribute. Represented as 862",
+                            "required": false
                         },
-                        "orientation": {
-                           "type": "string",
-                           "tag": "Orientation",
-                           "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXY",
-                           "required": false
+                        "performance": {
+                            "type": "string",
+                            "tag": "Performance",
+                            "description": "The Performance attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVW",
+                            "required": false
                         }
-                     },
-                     "tag": "User",
-                     "description": "The User attribute. Represented by a(n) object data type.",
-                     "required": false
-                  },
-                  "creator": {
-                     "type": "boolean",
-                     "tag": "Creator",
-                     "description": "The Creator attribute. Represented as False",
-                     "required": false
-                  },
-                  "ranking": {
-                     "type": "integer",
-                     "tag": "Ranking",
-                     "description": "The Ranking attribute. Represented as 498",
-                     "required": false
-                  },
-                  "numberOfTrades": {
-                     "type": "integer",
-                     "tag": "Numberoftrades",
-                     "description": "The Numberoftrades attribute. Represented as 862",
-                     "required": false
-                  },
-                  "performance": {
-                     "type": "string",
-                     "tag": "Performance",
-                     "description": "The Performance attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVW",
-                     "required": false
-                  }
-               }
+                    }
+                },
+                "tag": "Participants",
+                "description": "The Participants attribute. Represented by a(n) array data type.",
+                "required": false
+            }
+        },
+        "tag": "Battle",
+        "description": "The Battle attribute. Represented by a(n) object data type.",
+        "required": false
+    },
+    "joiner": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "string",
+                "tag": "Id",
+                "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
+                "required": false
             },
-            "tag": "Participants",
-            "description": "The Participants attribute. Represented by a(n) array data type.",
-            "required": false
-         }
-      },
-      "tag": "Battle",
-      "description": "The Battle attribute. Represented by a(n) object data type.",
-      "required": false
-   },
-   "joiner": {
-      "type": "object",
-      "properties": {
-         "id": {
-            "type": "string",
-            "tag": "Id",
-            "description": "The Id attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
-            "required": false
-         },
-         "nickname": {
-            "type": "string",
-            "tag": "Nickname",
-            "description": "The Nickname attribute. Represented as ABCDEFGHIJKLMNO",
-            "required": false
-         },
-         "title": {
-            "type": "string",
-            "tag": "Title",
-            "description": "The Title attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
-            "required": false
-         },
-         "accountType": {
-            "type": "string",
-            "tag": "Accounttype",
-            "description": "The Accounttype attribute. Represented as ABCDEFGHIJKLMNOPQRS",
-            "required": false
-         },
-         "countryCode": {
-            "type": "string",
-            "tag": "Countrycode",
-            "description": "The Countrycode attribute. Represented as ABCDEFGHIJKLMNOPQR",
-            "required": false
-         },
-         "orientation": {
-            "type": "string",
-            "tag": "Orientation",
-            "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNOPQR",
-            "required": false
-         }
-      },
-      "tag": "Joiner",
-      "description": "The Joiner attribute. Represented by a(n) object data type.",
-      "required": false
-   },
-   "participantIds": {
-      "type": "enum",
-      "items": {
-         "type": "string"
-      },
-      "tag": "Participantids",
-      "description": "The Participantids attribute. Represented by a(n) enum data type.",
-      "required": false
-   }
+            "nickname": {
+                "type": "string",
+                "tag": "Nickname",
+                "description": "The Nickname attribute. Represented as ABCDEFGHIJKLMNO",
+                "required": false
+            },
+            "title": {
+                "type": "string",
+                "tag": "Title",
+                "description": "The Title attribute. Represented as ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
+                "required": false
+            },
+            "accountType": {
+                "type": "string",
+                "tag": "Accounttype",
+                "description": "The Accounttype attribute. Represented as ABCDEFGHIJKLMNOPQRS",
+                "required": false
+            },
+            "countryCode": {
+                "type": "string",
+                "tag": "Countrycode",
+                "description": "The Countrycode attribute. Represented as ABCDEFGHIJKLMNOPQR",
+                "required": false
+            },
+            "orientation": {
+                "type": "string",
+                "tag": "Orientation",
+                "description": "The Orientation attribute. Represented as ABCDEFGHIJKLMNOPQR",
+                "required": false
+            }
+        },
+        "tag": "Joiner",
+        "description": "The Joiner attribute. Represented by a(n) object data type.",
+        "required": false
+    },
+    "participantIds": {
+        "type": "enum",
+        "items": {
+            "type": "string"
+        },
+        "tag": "Participantids",
+        "description": "The Participantids attribute. Represented by a(n) enum data type.",
+        "required": false
+    }
 }
