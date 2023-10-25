@@ -1,7 +1,7 @@
 from unittest import TestCase, main
 import json
 
-from schema_sniffer import SchemaSniffer
+from src.schema_sniffer import SchemaSniffer
 
 
 class TestSchemaSniffer(TestCase):
@@ -34,7 +34,7 @@ class TestSchemaSniffer(TestCase):
     def test_invalid_input_file(self) -> None:
         """Test that an exception is raised when an invalid input file is provided."""
         with self.assertRaises(FileNotFoundError):
-            sniffer = SchemaSniffer('invalid/path.json', 'schema/schema_2.json')
+            sniffer = SchemaSniffer('invalid/path.json', '../schema/schema_2.json')
             sniffer.read_input_file()
     
     def test_invalid_schema_file(self) -> None:

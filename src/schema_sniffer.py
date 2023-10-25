@@ -2,7 +2,7 @@ import json
 from dataclasses import dataclass, field
 from typing import Callable
 
-from schema import get_schema
+from src.schema import get_schema
 
 
 @dataclass

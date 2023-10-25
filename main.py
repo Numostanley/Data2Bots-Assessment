@@ -1,4 +1,4 @@
-from schema_sniffer import SchemaSniffer
+from src.schema_sniffer import SchemaSniffer
 
 
 def main() -> None:
