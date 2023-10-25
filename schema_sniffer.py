@@ -4,9 +4,10 @@ from typing import Callable
 
 from schema import get_schema
 
+
 @dataclass
 class SchemaSniffer:
-    """Reads a json input file, sniffs the schema of the json file,  
+    """Reads a json input file, sniffs the schema of the json file,
     and writes the output to a json file."""
     
     __input_file: str

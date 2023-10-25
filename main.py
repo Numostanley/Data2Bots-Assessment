@@ -1,5 +1,6 @@
 from schema_sniffer import SchemaSniffer
 
+
 def main() -> None:
     
     # create a list of input data and schema files
@@ -12,6 +13,7 @@ def main() -> None:
         data = schema.read_input_file()
         schema.sniff_schema(data=data)
         schema.write_output()
-        
+
+
 if __name__ == '__main__':
     main()

@@ -8,7 +8,7 @@ class TestSchemaSniffer(TestCase):
     """Test class for the SchemaSniffer class."""
     
     def setUp(self) -> None:
-        """Setup the test environment by creating a SchemaSniffer object and reading the input file."""
+        """Set up the test environment by creating a SchemaSniffer object and reading the input file."""
         self.sniffer = SchemaSniffer('data/data_2.json', 'schema/schema_2.json')
         self.data = self.sniffer.read_input_file()
         self.sniffer.sniff_schema(data=self.data)
@@ -44,6 +44,7 @@ class TestSchemaSniffer(TestCase):
             data = self.sniffer.read_input_file()
             sniffer.sniff_schema(data=data)
             sniffer.write_output()
+
 
 if __name__ == '__main__':
     main()

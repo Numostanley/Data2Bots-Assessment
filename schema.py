@@ -4,9 +4,9 @@ def get_schema(data: dict) -> dict:
 
     # Iterate through keys and values in data
     for key, value in data.items():
-        # Initialize empty dictionary for current key in schema
+        # Initialize empty dictionary for a current key in schema
         attributes = {}
-        
+
         # If value is a bool, set type to bool
         if isinstance(value, bool):
             attributes['type'] = 'boolean'
@@ -23,29 +23,30 @@ def get_schema(data: dict) -> dict:
         # If value is a list
         elif isinstance(value, list):
             try:
-                # If first element in list is a string, set type to array of strings (enum)
+                # If a first element in a list is a string, set type to array of strings (enum)
                 if isinstance(value[0], str):
                     attributes['type'] = 'enum'
                     attributes['items'] = {'type': 'string'}
-                # If first element in list is a dictionary, set type to array of objects and recursively call get_schema
+                # If a first element in a list is a dictionary,
+                # set type to array of objects and recursively call get_schema
                 elif isinstance(value[0], dict):
                     attributes['type'] = 'array'
                     attributes['items'] = {'type': 'object', 'properties': get_schema(value[0])}
-            # if list is empy
+            # if the list is empy
             except IndexError:
                 attributes['type'] = "list"
-                
+
         # Add padding to attributes.
         attributes['tag'] = key.capitalize()
         if (isinstance(value, bool)) or (isinstance(value, str)) or (isinstance(value, int)):
             attributes['description'] = f"The {key.capitalize()} attribute. Represented as {value}"
-        else:   
-            attributes['description'] = f"The {key.capitalize()} attribute. Represented by a(n) {attributes['type']} data type."          
-        
-        # Set required key to false
+        else:
+            attributes['description'] = f"The {key.capitalize()} attribute. Represented by a(n) {attributes['type']} data type."
+
+        # Set the required key to false
         attributes['required'] = False
-        
-        # Set current attribute to its respective key.
+
+        # Set the current attribute to its respective key.
         schema[key] = attributes
 
     # Return schema
